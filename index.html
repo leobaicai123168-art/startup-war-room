@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>创业作战台 · Day 1</title>
+<style>
+:root{--bg:#0b1020;--panel:#121a2f;--panel2:#18223c;--line:#2a3657;--text:#eef3ff;--muted:#9eaccb;--accent:#7c9cff;--accent2:#58d6b3;--warn:#ffbf69;--danger:#ff7b8b;--shadow:0 18px 60px rgba(0,0,0,.28)}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#09101d 0%,#0b1020 100%);color:var(--text);font-family:Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif}button,input,textarea{font:inherit}.wrap{max-width:1240px;margin:auto;padding:28px 18px 60px}.hero{display:grid;grid-template-columns:1.55fr .8fr;gap:18px;margin-bottom:20px}.card{background:rgba(18,26,47,.92);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow)}.hero-main{padding:26px}.eyebrow{font-size:13px;color:var(--accent2);letter-spacing:.12em;text-transform:uppercase}.hero h1{font-size:34px;margin:8px 0 10px}.hero p{color:var(--muted);line-height:1.7;margin:0}.badge-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.badge{padding:7px 10px;border:1px solid var(--line);border-radius:999px;color:#cbd6f2;background:#0f1730;font-size:13px}.score{padding:24px;display:flex;flex-direction:column;justify-content:center}.score .big{font-size:42px;font-weight:800;color:var(--accent2)}.score .small{color:var(--muted);font-size:13px}.topgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px}.metric{padding:18px}.metric b{font-size:24px}.metric span{display:block;color:var(--muted);margin-top:5px;font-size:13px}.tabs{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}.tab{border:1px solid var(--line);background:#0f1730;color:#c9d5f2;padding:10px 14px;border-radius:12px;cursor:pointer}.tab.active{background:linear-gradient(135deg,#6d86ff,#7f5cff);color:#fff;border-color:transparent}.section{display:none}.section.active{display:block}.section h2{font-size:22px;margin:24px 0 12px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}.panel{padding:20px}.panel h3{margin:0 0 10px;font-size:17px}.task{display:flex;gap:12px;align-items:flex-start;padding:14px 0;border-bottom:1px dashed var(--line)}.task:last-child{border-bottom:none}.task input{margin-top:4px;accent-color:#7c9cff}.task-title{font-weight:700}.task-note{color:var(--muted);font-size:13px;margin-top:4px;line-height:1.55}.project{padding:18px;position:relative;overflow:hidden}.project:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--accent)}.project.green:before{background:var(--accent2)}.project.orange:before{background:var(--warn)}.project.pink:before{background:#ff8fc8}.project h3{margin:0 0 6px}.project .goal{color:var(--muted);font-size:13px;line-height:1.6}.pill{display:inline-block;padding:4px 8px;border-radius:999px;background:#0d1530;border:1px solid var(--line);font-size:12px;color:#bed0ff;margin-top:10px}.content-card{padding:18px;margin-bottom:14px}.content-head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.content-head h3{margin:0 0 6px}.platform{font-size:12px;color:var(--accent2)}.copy{background:#243153;border:1px solid #35446d;color:white;padding:8px 11px;border-radius:10px;cursor:pointer}.content-box{margin-top:12px;background:#0c1429;border:1px solid var(--line);padding:16px;border-radius:14px;white-space:pre-wrap;line-height:1.75;color:#e6ecfb}.meta{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}.meta-box{background:#0e1730;border:1px solid var(--line);border-radius:12px;padding:12px}.meta-box strong{display:block;font-size:13px;margin-bottom:5px}.need{border-left:3px solid var(--warn);padding-left:12px}.need strong{color:var(--warn)}textarea{width:100%;min-height:110px;background:#0c1429;border:1px solid var(--line);border-radius:12px;color:white;padding:12px;resize:vertical}.save{margin-top:8px;background:#1c6d5a;border:0;color:white;padding:9px 13px;border-radius:10px;cursor:pointer}.progress{height:9px;background:#0c1429;border-radius:999px;overflow:hidden;border:1px solid var(--line);margin-top:10px}.bar{height:100%;width:0;background:linear-gradient(90deg,#6f8cff,#58d6b3);transition:.25s}.notice{padding:16px 18px;border:1px solid #3e4c73;border-radius:14px;background:#111a33;color:#d8e1f8;line-height:1.65}.notice strong{color:#fff}.footer{margin-top:24px;color:#7685a8;text-align:center;font-size:12px}@media(max-width:900px){.hero,.grid2{grid-template-columns:1fr}.topgrid{grid-template-columns:1fr 1fr}.meta{grid-template-columns:1fr}.hero h1{font-size:28px}}@media(max-width:540px){.topgrid{grid-template-columns:1fr}.wrap{padding:18px 12px 40px}.hero-main,.score,.panel,.content-card{padding:16px}}
+</style>
+</head>
+<body><div class="wrap">
+<div class="hero"><div class="card hero-main"><div class="eyebrow">Startup War Room · 2026-10-03</div><h1>创业作战台 · Day 1</h1><p>目标不是“研究创业”，而是从今天开始产生真实发布、真实咨询、真实订单。所有内容尽量做到你只需要：<b>看一眼 → 复制 → 配图 → 点发布。</b></p><div class="badge-row"><span class="badge">主线A：AI代做</span><span class="badge">主线B：装修内容</span><span class="badge">主线C：本地商家获客</span><span class="badge">主线D：垂直AI/SaaS</span></div></div><div class="card score"><div class="small">今日唯一判断标准</div><div class="big">离钱更近</div><div class="small">曝光不是终点：收藏 → 私信 → 有效咨询 → 成交</div><div class="progress"><div class="bar" id="overallBar"></div></div><div class="small" id="overallText" style="margin-top:8px">今日完成度 0%</div></div></div>
+<div class="topgrid"><div class="card metric"><b>2</b><span>今日小红书发布</span></div><div class="card metric"><b>5</b><span>闲鱼商品准备</span></div><div class="card metric"><b>20</b><span>潜在商家名单</span></div><div class="card metric"><b>1</b><span>今日必须完成的复盘</span></div></div>
+<div class="tabs"><button class="tab active" data-tab="today">今日总览</button><button class="tab" data-tab="decor">装修内容</button><button class="tab" data-tab="ai">AI代做</button><button class="tab" data-tab="local">本地商家</button><button class="tab" data-tab="saas">AI/SaaS</button><button class="tab" data-tab="review">晚间复盘</button></div>
+<section id="today" class="section active"><div class="grid2"><div class="card panel"><h3>今天你要做的事情</h3>
+<div class="task"><input type="checkbox" class="daytask" id="t1"><div><label class="task-title" for="t1">发小红书装修内容第1篇</label><div class="task-note">复制文案 → 选3–6张真实装修现场图 → 发布。</div></div></div>
+<div class="task"><input type="checkbox" class="daytask" id="t2"><div><label class="task-title" for="t2">发小红书射灯内容第2篇</label><div class="task-note">最好配射灯/餐边柜/走廊真实照片，或者产品截图。</div></div></div>
+<div class="task"><input type="checkbox" class="daytask" id="t3"><div><label class="task-title" for="t3">闲鱼先上AI建站商品</label><div class="task-note">第一天至少先上1个，另外4个今天准备好。</div></div></div>
+<div class="task"><input type="checkbox" class="daytask" id="t4"><div><label class="task-title" for="t4">整理20家潜在商户</label><div class="task-note">装修5、全屋定制5、美容/美甲5、摄影/婚庆5。</div></div></div>
+<div class="task"><input type="checkbox" class="daytask" id="t5"><div><label class="task-title" for="t5">晚上记录5个数据</label><div class="task-note">曝光、收藏、私信、有效咨询、成交金额。</div></div></div>
+</div><div class="card panel"><h3>今天需要你提供的素材</h3><div class="notice need"><strong>装修第1篇</strong><br>3–6张真实装修现场照片：毛坯/施工中/柜体/瓷砖/吊顶/灯位都可以。</div><div style="height:10px"></div><div class="notice need"><strong>射灯第2篇</strong><br>最好提供：走廊灯位、餐边柜灯位、你看过的射灯实物或商品截图。</div><div style="height:10px"></div><div class="notice"><strong>暂时不用提供</strong><br>AI建站商品今天可以先纯文字+简单封面发布；商家名单只需要确认行业，不需要图片。</div></div></div>
+<h2>四条项目线，一眼看懂</h2><div class="grid2"><div class="card project"><h3>A · AI代做</h3><div class="goal">最快产生第一笔现金流。先卖建站、PPT、商品图、视频、AI工作流。</div><span class="pill">今天：上架1–5个商品</span></div><div class="card project green"><h3>B · 装修内容</h3><div class="goal">真实装修内容做搜索流量，后续承接装修资料、效果图、商家与SaaS。</div><span class="pill">今天：发布2篇</span></div><div class="card project orange"><h3>C · 本地商家获客</h3><div class="goal">未来形成1999–9999元/月的高客单服务。</div><span class="pill">今天：建20家名单</span></div><div class="card project pink"><h3>D · 垂直AI / SaaS</h3><div class="goal">从前三条业务里找重复需求，先验证付费，再做工具。</div><span class="pill">今天：只记录需求，不开发</span></div></div></section>
+<section id="decor" class="section"><h2>装修内容 · 今天直接发布</h2><div class="card content-card"><div class="content-head"><div><div class="platform">小红书 · 第1篇</div><h3>装修以后才知道，原来这么多地方会踩坑</h3></div><button class="copy" data-copy="decor1">复制文案</button></div><div class="content-box" id="decor1">装修做到现在，我最大的感受就是：
+
+装修真的不能什么都听别人说。
+
+以前没装修的时候，我觉得无非就是找个装修公司、选选材料、看看效果图。
+
+真正开始以后才发现，里面每一个小东西都有几十种选择。
+
+就拿最近我研究的灯来说：
+
+射灯到底15°、24°还是36°？
+3000K、3500K到底差多少？
+明装还是嵌入式？
+尺寸大一点好看还是小一点精致？
+
+看起来都是小问题，但是装错以后，每天都得看着它。
+
+还有报价、柜子、瓷砖、插座、灯位、尺寸……
+每一个地方都可能踩坑。
+
+所以准备把这次装修从头到尾真实记录下来。
+
+不是装修公司，也不是设计师。
+就是一个正在装修、每天不停做功课的普通房东。
+
+以后我会把自己踩过的坑、花过的冤枉钱、选材料的过程、实际装修效果、哪些值得买、哪些最后后悔了，全部陆续整理出来。
+
+如果你也正在装修，可以先收藏。
+后面我把自己整理的装修避坑清单也发出来。
+
+#装修记录 #装修避坑 #装修日记 #装修经验 #装修小白 #新房装修 #装修干货
+
+（文案由AI辅助整理，实际经历与素材均为本人真实装修记录）</div><div class="meta"><div class="meta-box"><strong>封面字</strong>装修以后才知道<br>原来这么多地方会踩坑</div><div class="meta-box need"><strong>需要图片</strong>3–6张真实装修现场图。</div></div></div>
+<div class="card content-card"><div class="content-head"><div><div class="platform">小红书 · 第2篇</div><h3>射灯15°、24°、36°到底怎么选？</h3></div><button class="copy" data-copy="decor2">复制文案</button></div><div class="content-box" id="decor2">装修小白真的很容易被射灯搞懵。
+
+最近为了选家里的射灯，我研究了一圈才发现：射灯不是选个瓦数和颜色就结束了。
+
+15°：光比较集中，适合重点打一个小物件。
+24°：聚光感还比较明显，但不会特别生硬。
+36°：范围更自然，家里多数位置比较好用。
+60°：铺得比较开，更接近整体照明。
+
+另外一个特别容易忽略的是色温。我家其他地方主要是3500K，所以之前一直纠结一个位置只有3000K怎么办。3000K并不是不好看，它会更暖、更有氛围。但如果周围全部都是3500K，同一个视觉空间里突然出现明显偏黄的光，就需要提前考虑整体协调。
+
+还有灯体尺寸。我最近对比了：60×43mm、65×68mm、75×55mm。最后发现不能只看“哪个参数更高级”，层高、安装位置、柜子比例都会影响最终效果。
+
+等我装好以后，我把不同角度实际照出来的效果再发一次。
+
+#装修避坑 #射灯 #无主灯 #灯光设计 #装修日记 #装修小白 #家装灯光
+
+（文案由AI辅助整理，内容基于本人真实装修选择过程）</div><div class="meta"><div class="meta-box"><strong>封面字</strong>射灯别乱选<br>15° / 24° / 36° 差很多</div><div class="meta-box need"><strong>需要图片</strong>走廊、餐边柜灯位、射灯实物/商品图。</div></div></div></section>
+<section id="ai" class="section"><h2>AI代做 · 今天先上这5个</h2><div class="grid2"><div class="card content-card"><div class="content-head"><div><div class="platform">闲鱼 · 主推</div><h3>AI快速建站</h3></div><button class="copy" data-copy="ai1">复制详情</button></div><div class="content-box" id="ai1">标题：AI快速建站 网站制作 企业官网 个人主页 AI网站开发
+
+价格：199元起
+
+【AI快速建站｜个人主页｜企业官网｜产品展示页】
+
+不会写代码也没关系，把你的需求告诉我即可。
+
+可制作：个人主页、企业官网、工作室官网、产品展示页、活动落地页、AI工具页面、简单后台/表单、手机端自适应网站。
+
+你只需要提供：
+1. 想做什么网站
+2. 大概喜欢的风格
+3. 需要展示哪些内容
+4. 有参考网站的话发给我
+
+价格参考：
+199｜单页基础版
+599起｜企业/多页面网站
+1999起｜网站+AI功能
+
+复杂功能请先沟通需求后报价。
+AI辅助开发+人工检查，不是简单套模板直接交付。</div><div class="meta"><div class="meta-box"><strong>封面建议</strong>AI快速建站 / 199元起 / 手机电脑都能看</div><div class="meta-box"><strong>今天动作</strong>先发这个，其他4个晚一点补。</div></div></div><div class="card project green"><h3>另外4个商品</h3><div class="goal">② AI装修效果图｜99元起<br>③ AI PPT代做｜49元起<br>④ AI商品图｜39元起<br>⑤ AI智能体/自动化｜299元起</div><span class="pill">今天准备标题+封面即可</span></div></div></section>
+<section id="local" class="section"><h2>本地商家 · 今天只建名单，不急着推销</h2><div class="grid2"><div class="card panel"><h3>名单配额</h3><div class="task"><input type="checkbox" class="daytask"><div><div class="task-title">装修公司 × 5</div></div></div><div class="task"><input type="checkbox" class="daytask"><div><div class="task-title">全屋定制 × 5</div></div></div><div class="task"><input type="checkbox" class="daytask"><div><div class="task-title">美容/美甲 × 5</div></div></div><div class="task"><input type="checkbox" class="daytask"><div><div class="task-title">摄影/婚庆 × 5</div></div></div></div><div class="card panel"><h3>每家只记7项</h3><div class="notice">商户名<br>行业<br>小红书账号<br>抖音账号<br>粉丝量<br>最近更新时间<br>最明显的问题</div><div style="height:10px"></div><div class="notice"><strong>今天不群发。</strong><br>先把真正值得联系的20家挑出来，Day 5 再开始精准触达。</div></div></div></section>
+<section id="saas" class="section"><h2>垂直AI / SaaS · 今天只记录，不开发</h2><div class="grid2"><div class="card project"><h3>可能方向 1</h3><div class="goal">装修报价审核AI：上传报价单 → 标异常价格、漏项、增项风险。</div></div><div class="card project green"><h3>可能方向 2</h3><div class="goal">本地商家内容AI：输入行业/城市/产品 → 自动给关键词、选题、文案、视频脚本。</div></div><div class="card project orange"><h3>可能方向 3</h3><div class="goal">装修进度SaaS：客户每天看进度、照片、节点、验收、下一步。</div></div><div class="card project pink"><h3>今天动作</h3><div class="goal">每遇到一次重复需求就记下来，出现频率高于5次，再进入原型阶段。</div></div></div></section>
+<section id="review" class="section"><h2>晚间复盘 · 只看5个数字</h2><div class="grid2"><div class="card panel"><h3>今天数据</h3><div class="meta-box"><strong>曝光</strong><input id="m1" type="number" placeholder="0" style="width:100%;background:#0c1429;border:1px solid var(--line);color:white;padding:9px;border-radius:9px"></div><div class="meta-box"><strong>收藏</strong><input id="m2" type="number" placeholder="0" style="width:100%;background:#0c1429;border:1px solid var(--line);color:white;padding:9px;border-radius:9px"></div><div class="meta-box"><strong>私信</strong><input id="m3" type="number" placeholder="0" style="width:100%;background:#0c1429;border:1px solid var(--line);color:white;padding:9px;border-radius:9px"></div><div class="meta-box"><strong>有效咨询</strong><input id="m4" type="number" placeholder="0" style="width:100%;background:#0c1429;border:1px solid var(--line);color:white;padding:9px;border-radius:9px"></div><div class="meta-box"><strong>成交金额</strong><input id="m5" type="number" placeholder="0" style="width:100%;background:#0c1429;border:1px solid var(--line);color:white;padding:9px;border-radius:9px"></div><button class="save" id="saveMetrics">保存数据</button></div><div class="card panel"><h3>今天复盘</h3><textarea id="reviewText" placeholder="今天什么内容最接近钱？哪个商品有人问？"></textarea><button class="save" id="saveReview">保存复盘</button></div></div></section>
+<div class="footer">创业作战台 · 在线版 · 勾选与复盘数据保存在当前浏览器</div>
+</div>
+<script>
+const tabs=document.querySelectorAll('.tab'),sections=document.querySelectorAll('.section');tabs.forEach(t=>t.onclick=()=>{tabs.forEach(x=>x.classList.remove('active'));sections.forEach(s=>s.classList.remove('active'));t.classList.add('active');document.getElementById(t.dataset.tab).classList.add('active');window.scrollTo({top:0,behavior:'smooth'})});document.querySelectorAll('.copy').forEach(btn=>btn.onclick=async()=>{const el=document.getElementById(btn.dataset.copy);await navigator.clipboard.writeText(el.innerText);const old=btn.innerText;btn.innerText='已复制';setTimeout(()=>btn.innerText=old,1200)});const tasks=[...document.querySelectorAll('.daytask')];tasks.forEach((t,i)=>{const k='startup_task_'+i;t.checked=localStorage.getItem(k)==='1';t.addEventListener('change',()=>{localStorage.setItem(k,t.checked?'1':'0');updateProgress()})});function updateProgress(){const n=tasks.filter(x=>x.checked).length,p=Math.round(n/tasks.length*100);document.getElementById('overallBar').style.width=p+'%';document.getElementById('overallText').innerText='今日完成度 '+p+'%'}updateProgress();['m1','m2','m3','m4','m5'].forEach(id=>{document.getElementById(id).value=localStorage.getItem('startup_'+id)||''});document.getElementById('reviewText').value=localStorage.getItem('startup_review')||'';document.getElementById('saveMetrics').onclick=()=>{['m1','m2','m3','m4','m5'].forEach(id=>localStorage.setItem('startup_'+id,document.getElementById(id).value));alert('今日数据已保存')};document.getElementById('saveReview').onclick=()=>{localStorage.setItem('startup_review',document.getElementById('reviewText').value);alert('复盘已保存')};
+</script></body></html>
